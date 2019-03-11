@@ -1,0 +1,13 @@
+body {
+    
+    background:  linear-gradient(to right, blue, rgb(120, 0, 136));
+   
+}
+
+.quote {
+    font-family: 'Playfair Display', serif;
+}
+
+.author {
+    font-family: 'Ubuntu', sans-serif;
+}
