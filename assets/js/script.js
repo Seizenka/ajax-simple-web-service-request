@@ -3,7 +3,7 @@
 
 async function getData() {
     let res = await fetch('https://thatsthespir.it/api'); 
-    //await indique que je veux attendre  le résultat de fletch
+    //await indique que je veux attendre  le résultat de fgit puetch
     // on n'arrivera à cette ligne que lorsque "res" sera résolue
     let data = await res.json()
     //on arrivera à cette ligne que lorsque "data" sera résolue
@@ -25,7 +25,7 @@ getData()
         console.dir(err);
     })
 
-//nouvelle méthode
+//ancienne méthode
 /*let img = document.getElementById('img');
 let quote = document.getElementById('quote');
 let author = document.getElementById('author');
